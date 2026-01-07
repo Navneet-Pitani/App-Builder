@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ColorfulTodo</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div id="app" class="todo-app">
+    <header class="header">
+      <h1>ColorfulTodo</h1>
+      <button id="darkModeToggle" aria-label="Toggle dark mode">🌙</button>
+    </header>
+    <section class="input-section">
+      <input id="newTodoTitle" placeholder="What needs to be done?" autocomplete="off" />
+      <textarea id="newTodoDesc" placeholder="Optional description"></textarea>
+      <button id="addTodoBtn">Add</button>
+    </section>
+    <nav id="filters">
+      <button data-filter="all" class="active">All</button>
+      <button data-filter="active">Active</button>
+      <button data-filter="completed">Completed</button>
+    </nav>
+    <ul id="todoList" class="todo-list"></ul>
+  </div>
+
+  <template id="todoItemTemplate">
+    <li class="todo-item">
+      <div class="drag-handle">☰</div>
+      <input type="checkbox" class="toggle-complete" />
+      <span class="title"></span>
+      <p class="description"></p>
+      <button class="edit-btn">Edit</button>
+      <button class="delete-btn">Delete</button>
+    </li>
+  </template>
+</body>
+</html>

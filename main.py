@@ -1,0 +1,42 @@
+import argparse
+import sys
+import traceback
+
+from core.runner import run_agent
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Run engineering project planner"
+    )
+    parser.add_argument(
+        "--recursion-limit",
+        "-r",
+        type=int,
+        default=100,
+        help="Recursion limit for processing (default: 100)"
+    )
+
+    args = parser.parse_args()
+
+    try:
+        user_prompt = input("Enter your project prompt: ").strip()
+
+        result = run_agent(
+            user_prompt=user_prompt,
+            recursion_limit=args.recursion_limit
+        )
+
+        print("Final State:", result)
+
+    except KeyboardInterrupt:
+        print("\nOperation cancelled by user.")
+        sys.exit(0)
+
+    except Exception:
+        traceback.print_exc()
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()
