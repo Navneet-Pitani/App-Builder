@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>App Builder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>🛠 App Builder</h1>
+    <p>Describe the app you want to generate</p>
+
+    <textarea
+      id="prompt"
+      placeholder="Build a colourful modern todo app in HTML, CSS and JS"
+    ></textarea>
+
+    <button id="generateBtn">Generate</button>
+
+    <div id="status"></div>
+
+    <a id="downloadLink" style="display:none;" download>
+      ⬇ Download Project
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
