@@ -63,8 +63,8 @@ Opening the HTML file directly (`file://`) may cause scripts or styles to fail t
 - Clear and reset functionality  
 - Responsive layout  
 
-<!-- SCREENSHOT: Calculator App UI -->
-<!-- Add screenshot here -->
+<img width="718" height="752" alt="image" src="https://github.com/user-attachments/assets/62aeee3d-83b1-4fd3-b860-492d02912a30" />
+
 
 ---
 
@@ -92,6 +92,8 @@ These limitations are **intentional design choices** to keep the system predicta
 ## Screenshots
 
 <!-- SCREENSHOT: App Builder UI -->
+<img width="1448" height="842" alt="image" src="https://github.com/user-attachments/assets/c3eab408-cd41-437b-9cb9-54c43d89a2fd" />
+
 <!-- Add screenshot here -->
 <img width="522" height="713" alt="image" src="https://github.com/user-attachments/assets/bf7192dd-492d-4683-b0a3-f87b3763fb9f" />
 
@@ -105,6 +107,7 @@ Computer Science Student
 Exploring AI-assisted software engineering and agentic systems
 
 ---
+
 
 
 
