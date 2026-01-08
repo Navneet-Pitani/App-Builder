@@ -93,9 +93,8 @@ These limitations are **intentional design choices** to keep the system predicta
 
 <!-- SCREENSHOT: App Builder UI -->
 <!-- Add screenshot here -->
+<img width="522" height="713" alt="image" src="https://github.com/user-attachments/assets/bf7192dd-492d-4683-b0a3-f87b3763fb9f" />
 
-<!-- SCREENSHOT: Generated Project Folder -->
-<!-- Add screenshot here -->
 
 ---
 
@@ -106,5 +105,6 @@ Computer Science Student
 Exploring AI-assisted software engineering and agentic systems
 
 ---
+
 
 
